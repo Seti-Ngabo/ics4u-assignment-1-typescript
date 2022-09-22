@@ -1,1 +1,1 @@
-declare module "random" // e.g declare module 'random'
+declare module 'random' // e.g declare module 'random'

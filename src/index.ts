@@ -19,7 +19,9 @@ const higher = 3
 
 const randomNumber = Math.floor(Math.random() * higher + lower)
 // input
-const userString = prompt('Choose one of the following(rock, paper, or scissors): ')
+const userString = prompt(
+  'Choose one of the following(rock, paper, or scissors): '
+)
 const user = parseFloat(userString)
 // process & output
 if (user === randomNumber) {
@@ -36,7 +38,8 @@ if (user === randomNumber) {
   console.log('You lose, try again.')
 } else if (user === scissor && randomNumber === paper) {
   console.log('You won!')
-} else {  console.log('\nWrong input try again.')
+} else {
+  console.log('\nWrong input try again.')
 }
 
 console.log('\nDone.')
