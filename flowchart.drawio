@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="b1xt6cmgWp9BjfgMNRci" name="Page-1">
-        <mxGraphModel dx="1074" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1078" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -39,7 +39,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="11" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;else if &lt;br&gt;userInput === &lt;br&gt;rock &amp;amp;&amp;amp; randomInt &lt;br&gt;=== paper&lt;br&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;align=center;" parent="1" vertex="1">
+                <mxCell id="11" value="&lt;span style=&quot;font-size: 10px&quot;&gt;else if &lt;br&gt;userInput === &lt;br&gt;rock &amp;amp;&amp;amp; randomNumber&lt;br&gt;=== paper&lt;br&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;align=center;" parent="1" vertex="1">
                     <mxGeometry x="440" y="360" width="105.5" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="12" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Stop&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
@@ -48,7 +48,7 @@
                 <mxCell id="13" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="14" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;div&gt;else if&lt;/div&gt;&lt;div&gt;userInput ===&lt;/div&gt;&lt;div&gt;rock &amp;amp;&amp;amp; randomInt&lt;/div&gt;&lt;div&gt;=== scissor&lt;/div&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+                <mxCell id="14" value="&lt;font style=&quot;font-size: 10px&quot;&gt;&lt;div&gt;else if&lt;/div&gt;&lt;div&gt;userInput ===&lt;/div&gt;&lt;div&gt;rock &amp;amp;&amp;amp; randomNumber&lt;/div&gt;&lt;div&gt;=== scissor&lt;/div&gt;&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="575" y="360" width="105.5" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="16" target="32" edge="1">
@@ -63,7 +63,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="Print &quot;Choose one of the following(rock,paper or scissors&lt;span&gt;&quot;&lt;/span&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
-                    <mxGeometry x="265" y="80" width="170" height="80" as="geometry"/>
+                    <mxGeometry x="265" y="80" width="185" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="&lt;span style=&quot;font-size: 11px&quot;&gt;Co&lt;/span&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;nvert&amp;nbsp;&lt;span id=&quot;docs-internal-guid-adf32fb2-7fff-c617-634c-70962569ef87&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;userInput&lt;br&gt;to integer&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="290" y="240" width="120" height="40" as="geometry"/>
@@ -84,7 +84,7 @@
                         <mxPoint x="460" y="410" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="23" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;if userInput === randomInt&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+                <mxCell id="23" value="&lt;span style=&quot;font-size: 10px&quot;&gt;if userInput === randomNumber&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="297.25" y="360" width="105.5" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="25" target="35" edge="1">
